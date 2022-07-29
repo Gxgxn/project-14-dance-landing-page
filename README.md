@@ -11,6 +11,8 @@ To make the landing page for an imaginary business and mockup was provided. This
 ## Skills Gained
 
 - Using `flex-basis` for complex layouts.
+- Using `-webkit-text-fill-color` `-webkit-text-fill-color`
+  `-webkit-text-stroke-width`properties to create stroke text.
 
 ## Time Taken
 
