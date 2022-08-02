@@ -58,9 +58,12 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 nav > a {
   text-decoration: none;
+  display: flex;
+  align-items: center;
   color: rgb(158, 158, 158);
   padding: 10px 20px;
 }
@@ -69,7 +72,8 @@ nav > a:hover {
 }
 
 .line > hr {
-  border: 1px solid var(--clr-dark);
+  border: 0;
+  border-bottom: 1px solid var(--clr-dark);
 }
 .header-text {
   display: flex;
@@ -203,20 +207,26 @@ nav > a:hover {
   }
   .container {
     margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  .list-contianer {
+    flex-basis: 100%;
   }
   .hero-text > h1 {
     font-size: 7rem;
   }
   .text-container {
     margin-top: 1rem;
+    flex-basis: 80%;
   }
   .icon-container {
     top: 20px;
   }
   .icon-container-2 {
     font-size: 5rem;
+    flex-basis: 20%;
   }
   #fill {
-    margin-right: 15%;
+    margin-left: 10%;
   }
 }
